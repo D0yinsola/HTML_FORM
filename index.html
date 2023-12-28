@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML FORM</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form action="" method="post"></form>
+    <fieldset>
+      <legend>your address</legend>
+      <div>
+        <label for="First name">First name</label>
+        <input type="text" />
+      </div>
+
+      <div>
+        <label for="Last name">Last name</label>
+        <input type="text" />
+      </div>
+
+      <div>
+        <label for="Street">Street</label>
+        <input type="text" />
+      </div>
+
+      <div>
+        <label for="City">City</label>
+        <input type="text" />
+      </div>
+    </fieldset>
+    <fieldset>
+      <legend>Additional details</legend>
+      <div>
+        <label for="Biography">Biography </label>
+        <textarea name="text" id="Biography"> </textarea>
+      </div>
+      <div>
+        <label for="Image">Image</label>
+        <input type="file" />
+      </div>
+      <div>
+        <label for="age group">Age Group</label>
+        <select name="" id="">
+          <option value="select">0 to 9 Years</option>
+        </select>
+      </div>
+    </fieldset>
+
+    <fieldset>
+      <legend>Interest</legend>
+      <div>
+        <label for="hobbies"> Hobbies</label>
+        <select name="hobbies" id="hobbies" multiple="">
+          <option value="Playing soccer">Playing soccer</option>
+          <option value="Dancing">Dancing</option>
+          <option value="Garden">Garden</option>
+          <option value="Watching movies">Watching movies</option>
+        </select>
+      </div>
+      <div>
+        <label for="Favourite car?">Favourite car?</label>
+        <select name="cars" id="cars" class="custom-select">
+          <option value="ford">Ford</option>
+          <option value="volvo">Volvo</option>
+          <option value="Audi">Audi</option>
+        </select>
+      </div>
+      <div>
+        <label for="Favourite public transport">
+          Favourite public transport</label
+        >
+        <select name="Favourite public transport" id="" size="4" multiple>
+          <optgroup label="Ground">
+            <option value="Train">Train</option>
+            <option value="Bus">Bus</option>
+          </optgroup>
+          <optgroup label="Water"></optgroup>
+        </select>
+      </div>
+    </fieldset>
+  </body>
+</html>
